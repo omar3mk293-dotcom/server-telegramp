@@ -1,0 +1,10 @@
+checked_at=2026-11-04T14:27:06Z
+launched_cmd=python3 main.py
+alive=no
+status=died
+ports=53 2000 2222 12563 13005 16634 16635 16636 35691 43689 
+--- app log tail ---
+Traceback (most recent call last):
+  File "/workspaces/server-telegramp/main.py", line 1, in <module>
+    import discord
+ModuleNotFoundError: No module named 'discord'
